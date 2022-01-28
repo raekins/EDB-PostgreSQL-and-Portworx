@@ -4,14 +4,16 @@
 ## Getting Started
 
 1. Create a Kubernetes Cluster using preffered distribution.
-1. Follow intall instructions from (https://www.enterprisedb.com/docs/kubernetes/cloud_native_postgresql/installation_upgrade/)
+1. Follow install instructions from (https://www.enterprisedb.com/docs/kubernetes/cloud_native_postgresql/installation_upgrade/)
 1. Pull this Repo
 1. Create Portworx Storage Class
 1. Create PostgreSQL Cluster
 
-### Examples
+### Portworx Storage Class
 `
 $ kubectl apply -f px-postgreSQL-sc.yaml.yaml
+`
+### PostgreSQL Cluster
 $ kubectl apply -f px-postgreSQL-cluster.yaml
 `
 
