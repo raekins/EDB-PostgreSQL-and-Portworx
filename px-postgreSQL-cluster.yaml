@@ -1,0 +1,19 @@
+# Example of PX PostgreSQL cluster
+apiVersion: postgresql.k8s.enterprisedb.io/v1
+kind: Cluster
+metadata:
+  name: postgres-cluster
+spec:
+  instances: 3
+
+  # Example of rolling update strategy:
+  # - unsupervised: automated update of the primary once all
+  #                 replicas have been upgraded (default)
+  # - supervised: requires manual supervision to perform
+  #               the switchover of the primary
+  primaryUpdateStrategy: unsupervised
+  description: "Portworx PostgreSQL Cluster"
+
+  storage:
+    storageClass: "px-postgresql-sc"
+    size: 10Gi
