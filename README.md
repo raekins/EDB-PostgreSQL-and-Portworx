@@ -14,6 +14,7 @@
 $ kubectl apply -f px-postgreSQL-sc.yaml.yaml
 `
 ### PostgreSQL Cluster
+`
 $ kubectl apply -f px-postgreSQL-cluster.yaml
 `
 
