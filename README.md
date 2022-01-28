@@ -1,5 +1,19 @@
 # EDB PostgreSQL and Portworx Storage
-Kubernetes manifests for EDB Kubernetes PostgreSQL database and Portworx Storage
+**Kubernetes manifests for EDB Kubernetes PostgreSQL database and Portworx Storage
+
+## Getting Started
+
+1. Create a Kubernetes Cluster using preffered distribution.
+1. Follow intall instructions from (https://www.enterprisedb.com/docs/kubernetes/cloud_native_postgresql/installation_upgrade/)
+1. Pull this Repo
+1. Create Portworx Storage Class
+1. Create PostgreSQL Cluster
+
+### Examples
+`
+$ kubectl apply -f px-postgreSQL-sc.yaml.yaml
+$ kubectl apply -f px-postgreSQL-cluster.yaml
+`
 
 ## Authors
 
