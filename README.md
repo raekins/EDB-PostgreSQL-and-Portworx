@@ -18,5 +18,8 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 
 ## Link(s)
 
-Getting started with the EBD PostgreSQL Database Kubernetes Operator Part 1 (https://ronekins.com/2021/12/17/getting-started-with-the-edb-postgresql-database-kubernetes-operator-and-portworx-storage/)
-Getting started with the EBD PostgreSQL Database Kubernetes Operator Part 2 (https://ronekins.com/2022/01/28/getting-started-with-the-edb-postgresql-database-kubernetes-operator-and-portworx-storage-part-2/)
+Getting started with the EBD PostgreSQL Database Kubernetes Operator Part 1
+- (https://ronekins.com/2021/12/17/getting-started-with-the-edb-postgresql-database-kubernetes-operator-and-portworx-storage/)
+
+Getting started with the EBD PostgreSQL Database Kubernetes Operator Part 2
+- (https://ronekins.com/2022/01/28/getting-started-with-the-edb-postgresql-database-kubernetes-operator-and-portworx-storage-part-2/)
